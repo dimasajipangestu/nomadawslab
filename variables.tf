@@ -41,7 +41,8 @@ variable "nomad_node_count" {
 
 variable "allowed_ip_network" {
 	description = "Networks allowed in security group for ingress rules"
-	default = "["0.0.0.0/0"]"
+	type = HCL
+	default = ["0.0.0.0/0"]
 }
 
 variable "az_map" {
