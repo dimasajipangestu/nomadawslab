@@ -1,11 +1,11 @@
 variable "aws_access_key" {
 	description = "Access key for AWS account"
-	default = "change"
+	default = "AKIA5XXP33KIZMO472NS"
 }
 
 variable "aws_secret_key" {
 	description = "Secret for AWS account"
-	default = "change"
+	default = "q+eJ2eaKl0qFa7z6hTf2chCFxO0mPFOnw7Lq90gZ"
 }
 
 variable "aws_region" {
@@ -15,7 +15,7 @@ variable "aws_region" {
 
 variable "aws_key_fingerprint" {
 	description = "Fingrprint of your SSH key"
-	default = "change"
+	default = "c1:53:56:73:41:52:d2:48:7f:47:08:e4:29:2e:62:e5:f4:f2:ce:e1"
 }
 
 variable "aws_key_name" {
