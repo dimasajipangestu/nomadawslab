@@ -41,7 +41,6 @@ variable "nomad_node_count" {
 
 variable "allowed_ip_network" {
 	description = "Networks allowed in security group for ingress rules"
-	type = HCL
 	default = ["0.0.0.0/0"]
 }
 
