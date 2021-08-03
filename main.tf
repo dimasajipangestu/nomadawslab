@@ -11,8 +11,6 @@ resource "aws_instance" "nomad-node" {
 
     tags = {
         Terraform = "true"
-        ProvisionedBy = "Project Terra"
-        Turbonomic = "true"
         Name = "nomad-node-${count.index}"
     }
 }
